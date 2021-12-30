@@ -14,14 +14,62 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #cbd2df;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 20px;
   color: white;
+}
+
+.title {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.todo-card {
+  width: 600px;
+  padding: 8px;
+  margin: 4px;
+  background: black;
+  text-align: start;
+}
+
+.todo {
+  display: flex;
+}
+
+.add-todo {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.input {
+  border: none;
+  height: 30px;
+  width: 600px;
+}
+
+.todo-list {
+  display: inline-grid;
+}
+
+.actions {
+  background: transparent;
+  padding: 4px;
+  margin: 2px;
+  border-radius: 0.5ch;
+}
+
+.done {
+ border-color: green;
+ color: green;
+}
+
+.delete {
+  border-color: red;
+  color: red;
 }
 
 .App-link {
