@@ -11,7 +11,7 @@ const deleteToDo = index => {
 
 function ToDo({todoItem, index}) {
   return (
-    <div class='todo'>
+    <div className='todo'>
         <Card className='todo-card'>
         {todoItem}        
         </Card>
