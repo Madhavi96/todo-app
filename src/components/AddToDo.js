@@ -2,7 +2,7 @@ import React from 'react';
 import { Input } from 'antd';
 
 const addNewToDo = (newToDo) => {
-  console.log('Added new todo', newToDo);
+  console.log('Added new todo here', newToDo);
 };
 
 function AddToDo() {
