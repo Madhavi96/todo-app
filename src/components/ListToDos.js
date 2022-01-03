@@ -7,11 +7,13 @@ function ListToDos() {
 
   return (
     <div className='todo-list'>
+      <ul>
         {
             todos.map((todo, index) => (
-                <ToDo todoItem={todo} index={index} />
+                <li key={todo}><ToDo todoItem={todo} index={index} /></li>
             ))
         }
+      </ul>
     </div>
   );
 }

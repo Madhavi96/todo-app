@@ -11,4 +11,4 @@ phases:
   build:
     commands:
       - echo run coverage started on `date`
-      - npm run coverage
+      - npm run test
