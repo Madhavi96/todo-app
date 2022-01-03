@@ -1,10 +1,13 @@
 version: 0.1
 
 phases:
+  install:
+    runtime-versions:
+      nodejs: 16
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install --silent --progress-false
+      - npm install
       - npm --version
   build:
     commands:
