@@ -15,11 +15,11 @@
     "axios": "^0.19.0",
     "react-redux": "^7.1.1",
     "redux": "^4.0.4",
-    "redux-logger": "^3.0.6"    
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
-    "start": "rescripts start",
-    "build": "rescripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "dist:dev": "npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
     "dist:qa": "npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
     "test": "react-scripts test",
