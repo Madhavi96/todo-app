@@ -18,10 +18,10 @@
     "redux-logger": "^3.0.6"    
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "dist:dev": "REACT_APP_ENV=dev npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
-    "dist:qa": "REACT_APP_ENV=qa npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
+    "start": "rescripts start",
+    "build": "rescripts build",
+    "dist:dev": "npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
+    "dist:qa": "npm run build && cd build && aws s3 sync . s3://${DEPLOY_BUCKET_NAME}",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

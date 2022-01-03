@@ -4,7 +4,8 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install
+      - npm install --silent --progress-false
+      - npm --version
   build:
     commands:
       - echo Dev Build started on `date`
