@@ -28,16 +28,16 @@
   padding: 10px;
 }
 
+.todo {
+  display: flex;
+}
+
 .todo-card {
   width: 600px;
   padding: 8px;
   margin: 4px;
   background: black;
   text-align: start;
-}
-
-.todo {
-  display: flex;
 }
 
 .add-todo {
