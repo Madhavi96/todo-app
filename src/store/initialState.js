@@ -3,7 +3,7 @@ const initialState = {
         fetching: false,
         data: [
           'buy raincoat before afternoon',
-          'do laundry at 5pm'
+          'do laundry before noon'
         ],
         error: null
       }
