@@ -2,8 +2,8 @@ const initialState = {
     todos: {
         fetching: false,
         data: [
-          'clean the garden',
-          'wash the car'
+          'clean the garden-new feature',
+          'wash the car-new feature'
         ],
         error: null
       }
